@@ -1,0 +1,21 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Office lock and temporary files
+~$*
+
+# Files that are not distributed (see README)
+input/dane-retail-prices/
+input/geih/
+00_pipeline/cache/
+00_pipeline/robust/
+00_pipeline/price_forecasting/prices_paper.*
+00_pipeline/price_forecasting/prices_validation.csv
+00_pipeline/price_forecasting/anchor_prices.csv
+01_data_preparation/panel_food_paper.*
+
+# Large intermediate outputs
+03_income/deciles_final.csv
