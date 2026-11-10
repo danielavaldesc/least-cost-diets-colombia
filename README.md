@@ -48,14 +48,14 @@ Not every input can be redistributed. The following files are not in the reposit
 
 ## FoodpriceR
 
-The least-cost diet metrics and the affordability indicators are estimated with [FoodpriceR](https://github.com/lea-puj/FoodpriceR), an R package for the estimation of the minimum cost of three types of diets (González, Barona and Ordoñez, 2024). The package is not on CRAN. It can be installed from GitHub:
+The least-cost diet metrics and the affordability indicators are estimated with [FoodpriceR](https://github.com/lea-puj/FoodpriceR), an R package for assessing the affordability of three least-cost diets (Barona-Montoya, Báez Palencia, Mosquera-Angulo and Valdés Cárdenas, 2026). The package is not on CRAN. It can be installed from GitHub:
 
 ```r
 install.packages("remotes")
 remotes::install_github("lea-puj/FoodpriceR")
 ```
 
-The version used here is 1.0.0. To cite the package: González, D., Barona, S. A., & Ordoñez, J. C. (2024). *FoodpriceR: R library for the estimation of the minimum cost for three types of diets* (R package version 1.0.0). https://github.com/lea-puj/FoodpriceR
+To cite the package: Barona-Montoya, S. A., Báez Palencia, D., Mosquera-Angulo, J. J., & Valdés Cárdenas, D. (2026). FoodpriceR: An R package for assessing the affordability of least-cost diets in urban contexts. In *National Meeting of R Users* (Communications in Computer and Information Science, vol. 2824, pp. 78-96). Springer, Cham. https://doi.org/10.1007/978-3-032-18455-9_5
 
 ## Folder: input
 
@@ -99,7 +99,7 @@ From the root folder of the repository, the scripts are run in the order of the 
 
 All the scripts were written in R. The packages used are:
 
-- Estimations: `FoodpriceR` (version 1.0.0, installed from GitHub)
+- Estimations: `FoodpriceR` (installed from GitHub)
 - Data handling: `tidyverse`, `lubridate`, `readxl`, `writexl`, `openxlsx`, `janitor`, `Hmisc`
 - Package management: `pacman`
 
